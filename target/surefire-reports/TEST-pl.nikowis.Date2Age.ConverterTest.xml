@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.037" errors="0" skipped="0" tests="2" name="pl.nikowis.Date2Age.ConverterTest">
+<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="11" name="pl.nikowis.Date2Age.ConverterTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin"/>
@@ -61,6 +61,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.012" classname="pl.nikowis.Date2Age.ConverterTest" name="converterFutureDateGiven2Years"/>
-  <testcase time="0.025" classname="pl.nikowis.Date2Age.ConverterTest" name="converterTodayDateGiven2Years"/>
+  <testcase time="0.016" classname="pl.nikowis.Date2Age.ConverterTest" name="todayDateGiven2Days"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="todayDateGiven2Hours"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="todayDateGiven2Years"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="todayDateGiven2Seconds"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="futureDateGiven2Days"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="lastYearsDateGiven2Days"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="futureDateGiven2Years"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="normalDateGiven2Years"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="currentMonthsDateGiven2Days"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="todayDateGiven2Minutes"/>
+  <testcase time="0" classname="pl.nikowis.Date2Age.ConverterTest" name="leapYearsIncluded2Days"/>
 </testsuite>
